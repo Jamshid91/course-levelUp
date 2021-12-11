@@ -310,6 +310,67 @@ input, textarea {
   bottom: 5px;
 }
 
+.about-course .favorites .fa-heart {
+  font-size: 25px;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.about-course .favorites .favorites__text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.about-course .favorites .fas {
+  color: var(--red);
+}
+
+.about-course__info-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.about-course__img {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.about-course__img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-course-item {
+  height: 350px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-course-list__text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
 .course-coAuthors-list .course-coAuthors-photo {
   width: 100px;
   height: 100px;
@@ -1223,63 +1284,6 @@ input, textarea {
 .related-events-item-right__text {
   font-weight: 600;
   margin-top: 30px;
-}
-
-.about-course .favorites .fa-heart {
-  font-size: 25px;
-  color: var(--gray);
-  cursor: pointer;
-}
-
-.about-course .favorites .favorites__text {
-  font-size: 18px;
-  font-weight: 600;
-  margin-left: 20px;
-}
-
-.about-course__info-text {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 40px;
-}
-
-.about-course__img {
-  position: relative;
-  width: 100%;
-  height: 350px;
-}
-
-.about-course__img img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.about-course-item {
-  height: 350px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.about-course-list__text {
-  font-size: 18px;
-  font-weight: 600;
-  margin-left: 20px;
 }
 
 .author-courses .courses-card {

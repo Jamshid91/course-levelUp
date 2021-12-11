@@ -71,3 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setInterval(timeCount, 1000)
 })
+
+
+let heartCourse = document.querySelector('.favorites .fa-heart');
+
+heartCourse.addEventListener('click', () => {
+  heartCourse.classList.toggle('fas')
+});
