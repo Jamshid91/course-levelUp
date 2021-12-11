@@ -1,0 +1,249 @@
+// LARGE SCREEN
+@media screen and(min-width: 1355px) {
+    
+}
+
+// DESCTOP
+@media screen and(max-width: 1350px) {
+    
+}
+
+// TABLET
+@media screen and(max-width: 1024px) {
+    .author-header {
+        padding: 20px 0 20px 0;
+
+        &-item {
+            width: 96%;
+            padding: 20px 30px 20px 30px;
+            margin-left: 0;
+
+            .author-photo {
+                width: 120px;
+                height: 120px;
+                margin-right: 30px;
+            }
+            .fa-heart {
+                font-size: 40px;
+            }
+            .author__name {
+                font-size: 30px;
+            }
+            .placeOf-birth {
+                font-size: 22px;
+            }
+            .author-info__text {
+                font-size: 18px;
+                margin-top: 5px;
+            }
+            
+        .hidden-list {
+            width: 100%;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-bottom: 30px;
+
+            .left-info__text {
+                width: 100%;
+            }
+
+            .right-info__text {
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+            .contact-item {
+                margin-top: 20px;
+    
+                .author__email {
+                    font-size: 18px;
+                }
+            }
+            
+            .contact-list img{
+                width: 30px;
+            }
+        }
+
+        .author-header-btns {
+            .button-left,
+            .button-right {
+            width: 280px;
+            height: 50px;
+            font-size: 18px;
+            }
+        }
+        .filter-bgc {
+            display: none;
+        }
+    }
+
+    .reviews__height {
+        max-height: 400px;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .consultations {    
+        &-item  {
+        padding: 20px 30px;
+        }
+        .consultations__btn {
+            width: 250px;
+            height: 50px;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+    }
+
+    .reviews {
+        &-list {
+            &__photo {
+                margin-right: 15px;
+                width: 60px;
+            }
+            .mobile-reviews {
+                display: flex;
+                flex-direction: column;
+            }
+            .user__name {
+                font-weight: 600;
+                color: var(--dark-gray);
+                margin-right: 15px;
+            }
+            .fa-star {
+                color: var(--yellow);
+            }
+            .reviews__sup-text {
+                font-weight: 600;
+                color: var(--dark-gray);
+            }
+            .reviews__text {
+                font-size: 18px;
+                font-weight: 600;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+
+// MOBILE
+@media screen and(max-width: 576px) {
+    .lavelUp-btn {
+        width: 120px;
+        height: 50px;
+        font-size: 26px;
+    }
+    
+    .author-title__text {
+        font-size: 30px;
+        font-weight: 600;
+        color: var(--black);
+        margin: 60px 0 40px 0;
+    }
+    .author-header {
+        .filter-bgc {
+            display: none;
+        }
+        &-item {
+            padding: 15px;
+
+            
+            .author-photo {
+                width: 90px !important;
+                height: 90px !important;
+                margin-right: 5px !important;
+            }
+            .fa-heart {
+                font-size: 24px;
+            }
+            .author__name {
+                font-size: 22px;
+            }
+            .placeOf-birth {
+                font-size: 18px;
+            }
+            .contact-item {
+                margin-top: 20px;
+                flex-direction: column;
+    
+                .author__email {
+                    margin-bottom: 10px;
+                }
+            }
+            
+            .contact-list img{
+                width: 30px;
+            }
+        }
+
+        .author-header-btns {
+            flex-direction: column;
+            text-align: center;
+            .button-left,
+            .button-right {
+            width: 280px;
+            height: 50px;
+            font-size: 18px;
+            margin: 0;
+            }
+            .button-right {
+                margin-top: 25px;
+            }
+        }
+    }
+
+    .reviews {
+        .stars-item,
+        .progress-item {
+            height: 160px;
+    
+            .star__num {
+                font-size: 50px;
+                font-weight: 400;
+            }
+        }
+        .progress-item {
+            margin-top: 25px;
+        }
+        .mobile-column {
+            flex-direction: column;
+        }
+        .review-left__btn,
+        .review-right__btn {
+            width: 75%;
+            font-size: 20px;
+        }
+        .mobile_btn_rev {
+            width: 100%;
+        }
+    }
+    
+    .reviews__height {
+        max-height: 500px !important;
+    }
+}
+
+@media screen and(max-width: 420px) {
+    .author-header {
+        height: 100vh;
+    }
+}
+
+@media screen and(max-width: 375px) {
+    .author-header {
+        height: 115vh;
+    }
+}
+@media screen and(max-width: 360px) {
+    .author-header {
+        height: 125vh;
+    }
+}
+@media screen and(max-width: 320px) {
+    .author-header {
+        height: 140vh;
+    }
+}
