@@ -2,6 +2,7 @@
 $('.course-structure-item-title').click(function() {
     $(this.parentElement).siblings().removeClass('showStructure');
     $(this.parentElement).toggleClass('showStructure');
+    // alert()
   });
 
   $('.hide-item-list').click(function() {

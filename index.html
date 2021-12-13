@@ -953,7 +953,7 @@
                 </div>
 
                 <div class="col-12 d-flex justify-content-center">
-                    <button class="buy-together">Купить вместе</button>
+                    <button class="buy-together"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Купить вместе</button>
                 </div>
             </div>
         </div>
@@ -1041,7 +1041,354 @@
     </footer>
     <!-- End footer -->
 
+
+<div class="modal modal-course fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Выберите блоки для покупки</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="row">
+                <div class="col-12">
+                    <div class="course-structure-item">
+                        <div class="course-structure-item-title position-relative">
+                            <div class="d-flex">
+                                <input type="checkbox" class="modul__check">
+                                <div>
+                                    <h2 class="course-structure-item-title__text">Знакомство с курсом</h2>
+                                <span class="course-structure__time">23 урока, 2 часа 22 минуты</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="modal-course__price">1 999 ₽ </span>
+                                <i class="fal fa-chevron-down item-down"></i>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 1</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 2</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 3</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="seeAll__btn">Смотреть все разделы</button>
+                        </div>
+                    </div>
+                    <div class="course-structure-item">
+                        <div class="course-structure-item-title">
+                            <div class="d-flex">
+                                <input type="checkbox" class="modul__check">
+                            <div>
+                                <h2 class="course-structure-item-title__text">Цели и задачи курса</h2>
+                                <span class="course-structure__time">5 уроков, 1 час 16 минут</span>
+                            </div>
+                            </div>
+                            <i class="fal fa-chevron-down item-down"></i>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 1</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 2</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 3</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-structure-item">
+                        <div class="course-structure-item-title">
+                            <div class="d-flex">
+                                <input type="checkbox" class="modul__check">
+                            <div>
+                                <h2 class="course-structure-item-title__text">Основы проектного менеджмента</h2>
+                                <span class="course-structure__time">9 уроков, 2 часа 21 минута</span>
+                            </div>
+                            </div>
+                            <i class="fal fa-chevron-down item-down"></i>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 1</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 2</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 3</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="seeAll__btn">Смотреть все разделы</button>
+                        </div>
+                    </div>
+                    <div class="course-structure-item">
+                        <div class="course-structure-item-title">
+                            <div class="d-flex">
+                                <input type="checkbox" class="modul__check">
+                            <div>
+                                <h2 class="course-structure-item-title__text">Примеры из практики управления</h2>
+                                <span class="course-structure__time">3 урока, 12 минут</span>
+                            </div>
+                            </div>
+                            <i class="fal fa-chevron-down item-down"></i>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <h class="lesson-number">Урок 1</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <i class="fal fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <h class="lesson-number">Урок 2</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <i class="fal fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <h class="lesson-number">Урок 3</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <i class="fal fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="seeAll__btn">Смотреть все разделы</button>
+                        </div>
+                    </div>
+                    <div class="course-structure-item">
+                        <div class="course-structure-item-title">
+                            <div class="d-flex">
+                                <input type="checkbox" class="modul__check">
+                            <div>
+                                <h2 class="course-structure-item-title__text">Управление проектами</h2>
+                                <span class="course-structure__time">2 урока, 45 минут</span>
+                            </div>
+                            </div>
+                            <i class="fal fa-chevron-down item-down"></i>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 1</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 2</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-item-list">
+                            <div class="course-structure-item-info">
+                                <div class="d-flex align-items-start">
+                                    <input type="checkbox" class="modul__check-sub">
+                                    <h class="lesson-number">Урок 3</h>
+                                <div class="width-info">
+                                    <h3 class="course-structure-item-info__title">Цели, задачи, и структура курса</h3>
+                                    <span class="course-structure-item-info__time">13 минут, 1 домашнее задание, 3 дополнительных материала</span>
+                                    <p class="course-structure-item-info__text">В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями. В этом курсе Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.Вы научитесь эффективно управлять проектами со сложной структурой и амбициозными целями.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="modal-course__price-sub">999₽</span>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button class="seeAll__btn">Смотреть все разделы</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="total-cost">
+                <span class="total-cost__text">Итоговая стоимость курса</span>
+                <button class="total-cost__btn">17 052 ₽</button>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button class="apply__btn">Применить</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
     <script src="assets/js/plugins/jQuery.js"></script>
+    <script src="assets/js/plugins/bootstrap.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
 

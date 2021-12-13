@@ -143,14 +143,8 @@
     
     .course-structure {
 
-        .seeAll__btn {
-            width: 250px;
-            height: 50px;
-            font-size: 16px;
-        }
 
         &-item {
-            height: 100px;
 
             .course-structure__time {
                 font-size: 14px;
@@ -160,7 +154,6 @@
             }
 
             &-title {
-                height: 100px;
                 padding: 0 30px;
 
                 &__text {
@@ -203,6 +196,11 @@
             }
 
         }
+    }
+    .seeAll__btn {
+        width: 250px;
+        height: 50px;
+        font-size: 16px;
     }
     // End course-structure
 
@@ -386,6 +384,59 @@
             font-size: 18px;
         }
     }
+
+    
+.modal-course {
+    .modal-dialog {
+        padding: 20px;
+    }
+
+    .modal-content {
+
+        .modul__check {
+            margin-top: 5px;
+            margin-right: 15px;
+        }
+        .modal-course__price {
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .modal-course__price-sub {
+            font-size: 18px;
+            margin-right: 15px;
+        }
+
+        .modul__check-sub {
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+        }
+
+        .total-cost {
+            padding: 10px;
+
+            &__text {
+                font-size: 18px;
+            }
+
+            &__btn {
+                width: 200px;
+                height: 50px;
+            }
+        }
+        .apply__btn {
+            width: 250px;
+            height: 50px;
+            font-size: 18px;
+            margin-top: 50px;
+        }
+    }
+    .modal-title {
+        font-size: 26px;
+    }
+}
 }
 
 // MOBILE
@@ -754,6 +805,27 @@
         }
     }
     // End reviews
+
+    .modal-course {
+        .modal-content {
+            .modal-course__price {
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                background-color: var(--blue);
+                color: var(--white);
+                padding: 2px 4px;
+                border-radius: 4px;
+            }
+        }
+
+        .modal-dialog {
+            padding: 0px;
+        }
+        .modal-body {
+            padding: 15px 5px;
+        }
+    }
 }
 
 @media screen and(max-width: 360px) {
